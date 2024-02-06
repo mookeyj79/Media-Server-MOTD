@@ -1,2 +1,2 @@
-attrdict~=2.0.0
-requests~=2.20.0
+attrdictionary~=1.0.0
+requests~s=2.28.1
