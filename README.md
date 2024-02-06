@@ -27,3 +27,4 @@ sudo ./install.sh
 ## Credits
 Based on and inspired by https://github.com/ryanleonard1/PlexMOTD
 Further enhanced by l3uddz https://github.com/Cloudbox/Cloudbox-MOTD
+
