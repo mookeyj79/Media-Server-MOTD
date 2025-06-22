@@ -61,8 +61,8 @@ sudo chmod 644 /etc/motd
 REAL_USER=$(logname)
 sudo chown "$REAL_USER:$REAL_USER" /etc/update-motd.d /etc/motd
 
-touch activity.log
-chmod 644 activity.log
+sudo touch activity.log
+sudo chmod 644 activity.log
 
 log "Copying MOTD files to system..."
 sudo cp -a ./motd/* /etc/update-motd.d/
