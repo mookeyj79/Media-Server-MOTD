@@ -56,7 +56,7 @@ sudo cp -a ./motd/* /etc/update-motd.d/.
 sudo chmod 755 /etc/update-motd.d/*
 sudo chmod 644 /etc/update-motd.d/colors.txt
 
-if [ ! -f /etc/ssh/sshd_config ]; then
+if [ -f /etc/ssh/sshd_config ]; then
     printf "$\n{GRN}[*]${NC} Adjust sshd_config...\n"
     sudo sed -i 's/PrintLastLog yes/PrintLastLog no/g' /etc/ssh/sshd_config
 fi
